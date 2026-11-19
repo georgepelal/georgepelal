@@ -6,7 +6,7 @@
 *Systems Programming (C / Linux) • Machine Learning & NLP • Full-Stack Web & Mobile*
 
 [![GitHub](https://img.shields.io/badge/GitHub-georgepelal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/georgepelal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/giorgospelalidis)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giorgos-pelalidis-2394aa339/)
 [![Email](https://img.shields.io/badge/Email-georgepelal%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:georgepelal@gmail.com)
 
 </div>
