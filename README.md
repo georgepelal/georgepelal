@@ -46,6 +46,8 @@
 
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
+| [**efood-sentiment-analysis**](https://github.com/georgepelal/efood-sentiment-analysis) | `Python` `NLP` `Ollama` `RAG` `Scikit-Learn` | Sentiment analysis on 5,800+ real Greek food delivery reviews. Evaluates 5 text representations, 24 classical classifiers & Local LLMs (Qwen-2.5 7B RAG) with McNemar significance testing & label noise analysis. |
+| [**tabular-churn-audit**](https://github.com/georgepelal/tabular-churn-audit) | `Python` `XGBoost` `Scikit-Learn` `Reproducibility` | Rigorous empirical replication audit of tabular telecom churn benchmarks ($N = 7{,}043$). Proves mathematically that published 92% MLP accuracy claims resulted from synthetic oversampling data leakage. |
 | [**crypto-price-predictor**](https://github.com/georgepelal/crypto-price-predictor) | `Python` `LightGBM` `CCXT` `Optuna` | Institutional-grade ML research pipeline for crypto price forecasting. Features 65 lookahead-free indicators, walk-forward cross-validation on 7 years of Binance data, and live hourly paper trading daemon. |
 | [**datahunt**](https://github.com/georgepelal/datahunt) | `Python` `Eurostat` `Parquet` `Pytest` | ML-ready macroeconomic data acquisition and integration pipeline for Greece's 13 NUTS-2 regions. Implements polite caching, SHA-256 provenance sidecars, and automated unit tests. |
 
