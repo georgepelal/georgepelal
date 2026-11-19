@@ -1,92 +1,58 @@
 <div align="center">
 
-# Hi there, I'm Giorgos Pelalidis 👋
+# Giorgos Pelalidis
 
 **Electrical & Computer Engineering Student @ University of Thessaly**  
-*Systems Programming (C / Linux) • Machine Learning & NLP • Full-Stack Web & Mobile*
+*Coursework, prototypes & exploratory projects.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-georgepelal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/georgepelal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giorgos-pelalidis-2394aa339/)
-[![Email](https://img.shields.io/badge/Email-georgepelal%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:georgepelal@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-georgepelal-181717?style=flat&logo=github)](https://github.com/georgepelal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/giorgos-pelalidis-2394aa339/)
+[![Email](https://img.shields.io/badge/Email-georgepelal%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:georgepelal@gmail.com)
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
+### 📂 Projects & Coursework
 
-- 🎓 **Undergrad:** 5th Semester, Electrical & Computer Engineering at the [University of Thessaly](https://www.uth.gr/) (Volos, Greece).
-- ⚙️ **Systems & Architecture:** Passionate about low-level programming in **C** and UNIX internals (`/proc`, POSIX, processes, and memory management).
-- 📊 **Machine Learning & Data:** Building leakage-free tabular benchmarks, quantitative time-series models, and Greek NLP pipelines.
-- 🚀 **Full-Stack & Applied AI:** Designing interactive applications with modern stacks (React, TypeScript, Three.js) integrated with state-of-the-art AI models.
+<details open>
+<summary>📊 <b>Machine Learning & Data</b></summary>
+<br>
 
----
-
-### 🛠️ Tech Stack & Tooling
-
-<div align="center">
-
-| Domain | Technologies & Frameworks |
+| Project | Description |
 | :--- | :--- |
-| **Languages** | `C` • `Python` • `TypeScript` • `JavaScript` • `SQL` • `Bash` • `LaTeX` |
-| **Machine Learning & Data** | `PyTorch` • `Scikit-Learn` • `LightGBM` • `Pandas` • `NumPy` • `Parquet` • `Ollama` |
-| **Web & Mobile** | `React` • `Vite` • `React Native / Expo` • `Tailwind CSS` • `Three.js` • `Recharts` |
-| **Backend & Cloud** | `Express` • `Django` • `PostgreSQL` • `Redis` • `Docker` • `Supabase` • `Firebase` |
-| **Developer Tools** | `Linux / POSIX` • `Git` • `GCC` • `Make` • `Pytest` • `Google Gemini API` |
-
-</div>
-
----
-
-### 📂 Featured Projects by Category
-
-<details open>
-<summary>📁 <b>01. Machine Learning & Data Science</b> <i>(Click to toggle)</i></summary>
-<br>
-
-| Project | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| [**efood-sentiment-analysis**](https://github.com/georgepelal/efood-sentiment-analysis) | `Python` `NLP` `Ollama` `RAG` `Scikit-Learn` | Sentiment analysis on 5,800+ real Greek food delivery reviews. Evaluates 5 text representations, 24 classical classifiers & Local LLMs (Qwen-2.5 7B RAG) with McNemar significance testing & label noise analysis. |
-| [**tabular-churn-audit**](https://github.com/georgepelal/tabular-churn-audit) | `Python` `XGBoost` `Scikit-Learn` `Reproducibility` | Rigorous empirical replication audit of tabular telecom churn benchmarks ($N = 7{,}043$). Proves mathematically that published 92% MLP accuracy claims resulted from synthetic oversampling data leakage. |
-| [**demand-radar**](https://github.com/georgepelal/demand-radar) | `Python` `Ollama` `Local LLMs` `UMAP` | Autonomous market demand & consumer pain-point discovery pipeline. Ingests Hacker News, Stack Exchange & App Store reviews to extract unmet needs via 2-stage local LLM classification and clustering. |
-| [**crypto-price-predictor**](https://github.com/georgepelal/crypto-price-predictor) | `Python` `LightGBM` `CCXT` `Optuna` | Institutional-grade ML research pipeline for crypto price forecasting. Features 65 lookahead-free indicators, walk-forward cross-validation on 7 years of Binance data, and live hourly paper trading daemon. |
-| [**datahunt**](https://github.com/georgepelal/datahunt) | `Python` `Eurostat` `Parquet` `Pytest` | ML-ready macroeconomic data acquisition and integration pipeline for Greece's 13 NUTS-2 regions. Implements polite caching, SHA-256 provenance sidecars, and automated unit tests. |
+| [**efood-sentiment-analysis**](https://github.com/georgepelal/efood-sentiment-analysis) | Sentiment analysis on 5,800+ Greek delivery reviews using classical ML (TF-IDF) and local LLMs (Ollama). |
+| [**tabular-churn-audit**](https://github.com/georgepelal/tabular-churn-audit) | Model evaluation & data leakage audit on the IBM Telco Customer Churn dataset across 5 classifiers. |
+| [**demand-radar**](https://github.com/georgepelal/demand-radar) | Local pipeline (Ollama + UMAP) mining consumer complaints and software requests from public forums and app reviews. |
+| [**crypto-price-predictor**](https://github.com/georgepelal/crypto-price-predictor) | Experimental crypto price forecasting pipeline using LightGBM and paper trading simulation. |
+| [**datahunt**](https://github.com/georgepelal/datahunt) | Data acquisition, cleaning, and integration pipeline for Greek regional economic indicators (Eurostat, Diavgeia). |
 
 </details>
 
 <details open>
-<summary>📁 <b>02. Core Systems & Low-Level Engineering (C / Linux)</b> <i>(Click to toggle)</i></summary>
+<summary>⚙️ <b>Systems & CLI Tools</b></summary>
 <br>
 
-| Project | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| [**minitop**](https://github.com/georgepelal/minitop) | `C` `Linux /proc` `POSIX` `Make` | Lightweight terminal-based Linux process monitor inspired by `top`. Parses `/proc` directly to report PID, state, memory usage, and CPU time across multiple view modes (basic, detailed, raw). |
-| [**autograder**](https://github.com/georgepelal/autograder) | `C` `Bash` `GCC` `Unix` | Automated command-line grading and testing engine for C programming assignments. Handles compilation verification via GCC, input/output test case execution, diffing, and scoring reports. |
+| Project | Description |
+| :--- | :--- |
+| [**minitop**](https://github.com/georgepelal/minitop) | Lightweight Linux terminal process monitor written in C that reads the `/proc` filesystem. |
+| [**autograder**](https://github.com/georgepelal/autograder) | Command-line testing and auto-grading tool for C programming assignments. |
 
 </details>
 
 <details open>
-<summary>📁 <b>03. Full-Stack Web & Applied AI</b> <i>(Click to toggle)</i></summary>
+<summary>🌐 <b>Web Applications</b></summary>
 <br>
 
-| Project | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| [**mycrop**](https://github.com/georgepelal/mycrop) | `React 18` `TypeScript` `Three.js` `Gemini AI` | Comprehensive Agronomy & Environmental dashboard aggregating 60+ live tools, geospatial satellite data (Copernicus, NASA, NOAA), 3D field views, and an interactive Gemini AI agronomist. |
-| [**menuapp**](https://github.com/georgepelal/menuapp) | `React` `TypeScript` `Supabase` `Tailwind` | Modern digital restaurant menu & administration system featuring QR ordering, real-time database updates via Supabase, and AI translation/recommendation services. |
+| Project | Description |
+| :--- | :--- |
+| [**mycrop**](https://github.com/georgepelal/mycrop) | Web dashboard for agronomy and environmental data with satellite map views and tools. |
+| [**menuapp**](https://github.com/georgepelal/menuapp) | Digital restaurant menu and ordering prototype built with React and Supabase. |
 
 </details>
-
----
-
-### 📈 GitHub Activity & Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=georgepelal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Giorgos Pelalidis GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=georgepelal&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
 
 ---
 
 <div align="center">
-  <sub>Built with care by Giorgos Pelalidis • Volos, Greece</sub>
+  <sub>Volos, Greece</sub>
 </div>
